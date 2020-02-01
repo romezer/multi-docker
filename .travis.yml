@@ -17,5 +17,5 @@ services:
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
     - docker push rootdocker1/multi-client
     - docker push rootdocker1/multi-nginx
-    docker push rootdocker1/multi-server
-    docker push rootdocker1/multi-worker
+    - docker push rootdocker1/multi-server
+    - docker push rootdocker1/multi-worker
